@@ -1,0 +1,7 @@
+python==3.7.4
+torch==1.4.0
+numpy==1.16.4
+argparse==1.1
+logging==0.5.1.2
+pandas==0.25.3
+sklearn==0.21.2
