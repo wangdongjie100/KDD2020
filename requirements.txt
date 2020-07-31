@@ -1,6 +1,10 @@
 torch==1.4.0
 numpy==1.16.4
 argparse==1.1
-logging==0.5.1.2
 pandas==0.25.3
-sklearn==0.21.2
+scikit-learn==0.21.2
+torch_scatter==2.0.4
+torch_sparse==0.6.1
+torch_cluster==1.5.4
+torch_spline_conv==1.2.0
+torch_geometric==1.4.1
