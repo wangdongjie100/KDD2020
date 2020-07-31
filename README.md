@@ -32,11 +32,15 @@ We recommend you to install anaconda as your basic python library, here our code
 
 `conda create -n kddtest python=3.7.4`
 
-4. Install all required python packages, we have provided the requirements file, so you can use following command.
+4. Activate the python environment.
+
+`conda activate kddtest`
+
+5. Install all required python packages, we have provided the requirements file, so you can use following command.
 
 `pip install -r requirements.txt`
 
-5. Run this code.
+6. Run this code.
 
 `python main.py`
 
@@ -47,6 +51,7 @@ Beijing Experiment:
 `python main.py --priority_mode='r' --city='bj' --model_name='dqn' --reward_mode='r1' --ll=0.3 --lc=0.3 --lp=0.4 --memory_capacity=20 --batch_size=6 --lr=0.001 --epsilon=0.9 --gamma=0.9 --target_replace_iter=5 --data_batch_size=1024 --user_path='toy_data/bj/s_user.pkl' --poi_dist_mat_path='toy_data/bj/poi_dist_Mat.pkl' --cat_sim_mat_path='toy_data/bj/cat_sim_mat.pkl' --s_KG_path='toy_data/bj/s_KG.pkl' --poi_cat_dict_path='toy_data/bj/POI_cat_dict.pkl' --poi_loc_dict_path='toy_data/bj/POI_loc_dict.pkl' --poi_list_train_path='toy_data/bj/POI_list_train.pkl' --user_list_train_path='toy_data/bj/user_list_train.pkl' --temporal_train_path='toy_data/bj/Temporal_train.pkl' --poi_list_test_path='toy_data/bj/POI_list_test.pkl' --user_list_test_path='toy_data/bj/user_list_test.pkl' --temporal_test_path='toy_data/bj/Temporal_test.pkl'`
 
 NewYork Experiment:
+
 `python main.py --priority_mode='r' --city='nyc' --model_name='dqn' --reward_mode='r1' --ll=0.3 --lc=0.3 --lp=0.4 --memory_capacity=20 --batch_size=6 --lr=0.001 --epsilon=0.9 --gamma=0.9 --target_replace_iter=5 --data_batch_size=1024 --user_path='toy_data/nyc/s_user.pkl' --poi_dist_mat_path='toy_data/nyc/poi_dist_Mat.pkl' --cat_sim_mat_path='toy_data/nyc/cat_sim_mat.pkl' --s_KG_path='toy_data/nyc/s_KG.pkl' --poi_cat_dict_path='toy_data/nyc/POI_cat_dict.pkl' --poi_loc_dict_path='toy_data/nyc/POI_loc_dict.pkl' --poi_list_train_path='toy_data/nyc/POI_list_train.pkl' --user_list_train_path='toy_data/nyc/user_list_train.pkl' --temporal_train_path='toy_data/nyc/Temporal_train.pkl' --poi_list_test_path='toy_data/nyc/POI_list_test.pkl' --user_list_test_path='toy_data/nyc/user_list_test.pkl' --temporal_test_path='toy_data/nyc/Temporal_test.pkl'`
 
 ## Reference 
