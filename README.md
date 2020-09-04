@@ -56,4 +56,11 @@ NewYork Experiment:
 
 ## Reference 
 If you use this code or our work for your research, please cite our paper.
+@inproceedings{wang2020incremental,
+  title={Incremental Mobile User Profiling: Reinforcement Learning with Spatial Knowledge Graph for Modeling Event Streams},
+  author={Wang, Pengyang and Liu, Kunpeng and Jiang, Lu and Li, Xiaolin and Fu, Yanjie},
+  booktitle={Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+  pages={853--861},
+  year={2020}
+}
 
