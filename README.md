@@ -28,7 +28,7 @@ We recommend you to install anaconda as your basic python library, here our code
 
 `unzip toy_data.zip`
 
-3. We recommend you to create one specific environment for this code, if you do not care about this issue, you can skip to step 4.
+3. We recommend you to create one specific environment for this code, if you do not care about this issue, you can skip to step 5.
 
 `conda create -n kddtest python=3.7.4`
 
